@@ -1,94 +1,141 @@
 function oneThroughTwenty() {
-    
-   /* Your code goes below
-   Write a for or a while loop
-   return the result*/
+  let counter = ""
+    for (let a = 1; a <= 20; a++){
+      counter += a + "\n"
+    }  
+    return counter
     
 }
 
-//call function oneThroughTwenty
+console.log(oneThroughTwenty())
+
 
 function evensToTwenty() {
     
-   /* Your code goes below
-   Write a for or a while loop
-   return the result */
+   let counter = ""
+    for (let a = 1; a <= 20; a++){
+      if(a % 2 == 0) {
+        counter += a + "\n"
+    }  else {
+        counter += "\n"
+    }
+  }
+    return counter
+    
   
 }
 
-//call function evensToTwenty
+console.log(evensToTwenty())
 
 function oddsToTwenty() {
     
-  /* Your code goes below
-  Write a for or a while loop
-  return the result */
-   
+   let counter = ""
+    for (let a = 1; a <= 20; a++){
+      if(a % 2 == 0) {
+        counter += "\n"
+    }  else {
+        counter += a + "\n"
+    }
+  }
+    return counter
+    
+  
 }
 
-//call function oddsToTwenty
+console.log(oddsToTwenty())
 
 function multiplesOfFive() {
-    
-  /* Your code goes below
-  Write a for or a while loop
-  return the result */
+     
+   let counter = ""
+    for (let a = 5; a <= 100; a++){
+      if(a % 5 != 0) {
+        counter += ""
+    }  else {
+        counter += a + "\n"
+    }
+  }
+    return counter
 
 }
 
-//call function multiplesOfFive
+console.log(multiplesOfFive())
 
 function squareNumbers() {
-    
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
-    
+     
+   let counter = ""
+    for (let a = 1; a <= 10; a++){
+        counter += (a*a) + "\n"
+    }
+      return counter
+
 }
 
-//call function squareNumbers
+console.log(squareNumbers())
 
 function countingBackwards() {
-    
-  /* Your code goes below
-  Write a for or a while loop
-  return the result */
+  let counter = ""
+    for (let a = 20; a >= 1; a--){
+      counter += a + "\n"
+    }  
+    return counter
 }
 
-//call function countingBackwards
+console.log(countingBackwards())
 
 function evenNumbersBackwards() {
     
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
-}
+   let counter = ""
+    for (let a = 20; a >= 1; a--){
+      if(a % 2 == 0) {
+        counter += a + "\n"
+    }  else {
+        counter += "\n"
+    }
+  }
+    return counter
+    
+  }
 
-//call function evenNumbersBackwards
+console.log(evenNumbersBackwards())
 
 function oddNumbersBackwards() {
     
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
+   let counter = ""
+    for (let a = 20; a >= 1; a--){
+      if(a % 2 == 0) {
+        counter += "\n"
+    }  else {
+        counter += a + "\n"
+    }
+  }
+    return counter
+   
 }
 
-//call function oddNumbersBackwards
+console.log(oddNumbersBackwards())
 
 function multiplesOfFiveBackwards() {
-    
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
+     
+   let counter = ""
+    for (let a = 100; a >= 5; a--){
+      if(a % 5 != 0) {
+        counter += ""
+    }  else {
+        counter += a + "\n"
+    }
+  }
+    return counter
 }
 
-//call function multiplesOfFiveBackwards
+console.log(multiplesOfFiveBackwards())
 
 function squareNumbersBackwards() {
-    
-   /* Your code goes below
-  Write a for or a while loop
-  return the result */
+     
+   let counter = ""
+    for (let a = 10; a >= 1; a--){
+        counter += (a*a) + "\n"
+    }
+      return counter
 }
 
-//call function squareNumbersBackwards
+console.log(squareNumbersBackwards())
